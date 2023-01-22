@@ -1,0 +1,17 @@
+TODO: 
+- Install Terraform
+- Authenticate to AWS
+- Hello World tf config
+- Init, Plan, Apply, Destroy
+
+I DID: 
+Install Terraform with home brew (1.3.7)
+Create AWS IAM User and User Group, assign permissions
+Install AWS CLI
+aws configure - has put configuration in ~/.aws
+create main.tf
+chose an amazon machine image (ami) using these instructions https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/finding-an-ami.html
+terraform init
+terraform plan 
+terraform apply
+terraform Destroy
